@@ -1,10 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasteen Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+<header class="header">
+    <div class="logo">Dasteen.<span class="highlight">Blog</span></div>
+    <nav class="nav">
+        <a href="#"><b>Home</b></a>
+        <a href="#"><b>Category</b></a>
+        <a href="#"><b>About Me</b></a>
+        <a href="#"><b>Search</b></a>
+        <button class="buy-coffee">Buy Me A Coffee</button>
+    </nav>
+</header>
+
+<main class="main">
+    <div class="intro">
+        <h1>Hi, I’m Dasteen<br>Front End Dev</h1>
+        <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc.<br>Make sure you subscribe to get the latest updates.</p>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email here..." required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <div class="illustration">
+        <img src="images/1.jpg" alt="Illustration of a developer">
+    </div>
+</main>
+
+<section class="categories">
+    <div class="categories-header">
+        <h2>Browse The Category</h2>
+        <a href="#" class="see-all">See All Category &rarr;</a>
+    </div>
+    <div class="categories-grid">
+        <div class="category-card">
+            <img src="images/css-icon.jpg" alt="CSS Icon">
+            <p>CSS</p>
+        </div>
+        <div class="category-card">
+            <img src="images/js-icno.png" alt="JS Icon">
+            <p>Javascript</p>
+        </div>
+        <div class="category-card active">
+            <img src="images/tailwind-icon.png" alt="Tailwind Icon">
+            <p>Tailwind</p>
+        </div>
+        <div class="category-card">
+            <img src="images/vue-icon.png" alt="Vue Icon">
+            <p>Vue JS</p>
+        </div>
+        <div class="category-card">
+            <img src="images/react-icon.png" alt="React Icon">
+            <p>React JS</p>
+        </div>
+    </div>
+</section>
+
+<section class="articles">
+    <div class="section-header">
+        <h2>Featured Article</h2>
+        <a href="#" class="see-all">See All Article &rarr;</a>
+    </div>
+    <div class="articles-grid">
+        <div class="article-card">
+            <img src="images/images2.jpeg" alt="Article 1">
+            <h3>Fundamental Of Javascript</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images3.jpeg" alt="Article 2">
+            <h3>Grid CSS Make Your Life Easier</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images4.jpeg" alt="Article 3">
+            <h3>Make Animated Light Mode And Dark Mode Toggle With CSS</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images5.jpeg" alt="Article 4">
+            <h3>Make Tic Tac Toe Games With React</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="articles">
+    <div class="section-header">
+        <h2>CSS</h2>
+        <a href="#" class="see-all">See All Article &rarr;</a>
+    </div>
+    <div class="articles-grid">
+        <div class="article-card">
+            <img src="images/images6.jpeg" alt="Article 5">
+            <h3>Flexbox CSS: Everything You Need To Know</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images3.jpeg" alt="Article 2">
+            <h3>Grid CSS Make Your Life Easier</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images7.jpeg" alt="Article 6">
+            <h3>3 Easy Way To Make Div Center</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images4.jpeg" alt="Article 3">
+            <h3>Make Animated Light Mode And Dark Mode Toggle With CSS</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="articles">
+    <div class="section-header">
+        <h2>JavaScript</h2>
+        <a href="#" class="see-all">See All Article &rarr;</a>
+    </div>
+    <div class="articles-grid">
+        <div class="article-card">
+            <img src="images/images8.jpeg" alt="Article 5">
+            <h3>Array In JavaScript - Learn JS#3</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images3.jpeg" alt="Article 2">
+            <h3>Fundamental Of Javascript</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images9.jpeg" alt="Article 6">
+            <h3>7 Project With Javascript You Must Try For Your Portfolio</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images10.jpeg" alt="Article 3">
+            <h3>Make Simple Calculator With Javascript</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="articles">
+    <div class="section-header">
+        <h2>React JS</h2>
+        <a href="#" class="see-all">See All Article &rarr;</a>
+    </div>
+    <div class="articles-grid">
+        <div class="article-card">
+            <img src="images/images11.jpeg" alt="Article 5">
+            <h3>First Month Of Learning React JS</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images12.jpeg" alt="Article 2">
+            <h3>Build Markdown Editor With React JS</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images13.jpeg" alt="Article 6">
+            <h3>Getting Started With React JS</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+        <div class="article-card">
+            <img src="images/images5.jpeg" alt="Article 3">
+            <h3>Make Tic Tac Toe Games With React JS</h3>
+            <div class="article-info">
+                <img src="images/author.jpg" alt="Author">
+                <p>Dasteen</p>
+                <p>Jan 10, 2022 &bull; 3 Min Read</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="subscribe-section">
+        <img src="images/images14.png" alt="Mailbox Icon">
+        <h2>Subscribe For The Lastest Updates</h2>
+        <p>Subscribe to newsletter and never miss the new post every week.</p>
+        <div class="subscribe-form">
+            <input type="email" placeholder="Enter your email here....">
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <div class="footer-content">
+        <div class="footer-logo">
+            <h2><span>Dasteen</span><span class="dot">.blog</span></h2>
+            <p>Digitaldastin by Dastin Darmawan</p>
+
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>CATEGORY</h3>
+                <a href="#">CSS</a>
+                <a href="#">Javascript</a>
+                <a href="#">Tailwind</a>
+                <a href="#">React JS</a>
+                <a href="#">More Category</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>ABOUT ME</h3>
+                <a href="#">About Me</a>
+                <a href="#">Projects</a>
+                <a href="#">Achievement</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>GET IN TOUCH</h3>
+                <p>+62-8XXX-XXX-XX</p>
+                <p>demo@gmail.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>FOLLOW US</h3>
+                <a href="#">Medium</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 </body>
 </html>
